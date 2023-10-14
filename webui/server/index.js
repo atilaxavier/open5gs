@@ -1,6 +1,6 @@
 process.env.DB_URI = process.env.DB_URI || 'mongodb://localhost/open5gs';
 
-const _hostname = process.env.HOSTNAME || 'localhost';
+const _hostname = process.env.HOSTNAME || '10.221.232.210';
 const port = process.env.PORT || 3000;
 
 const co = require('co');
